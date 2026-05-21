@@ -3,7 +3,7 @@ import { useAuthStore } from '../store/useAuthStore';
 
 // In Android, 10.0.2.2 points to the host machine's localhost. 
 // For Expo on a physical device, use your computer's local IP (e.g., 192.168.1.x).
-const BASE_URL = 'http://192.168.1.16:3000/'; 
+const BASE_URL = 'http://192.168.1.29:3000/'; 
 
 const apiClient = axios.create({
   baseURL: BASE_URL,
